@@ -11,7 +11,8 @@
   
 #### Introduction
  
-**ZSH Advantages (over bash)**
+__*ZSH Advantages (over bash)*__  
+
 ZSH offers more features than bash, such as:
 * autocompletion
 * spelling correction
@@ -24,7 +25,10 @@ ZSH offers more features than bash, such as:
 Here you can find a [list](https://en.wikipedia.org/wiki/Z_shell#Features) of ZSH features.
 Or, you could always go into [this amazing pptx](https://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692).  
   
-**Most important Features**
+---
+  
+
+#### Most important Features
   
 __Autocompletition__
   
