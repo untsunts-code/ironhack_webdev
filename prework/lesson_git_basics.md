@@ -1,6 +1,6 @@
-# Prework  
 ## Git Basics  
 ### Goals  
+We should be able to:    
 * know how to create a .git repository  
 * check the status to see what has changed  
 * add your changed files to the staging area with **git add** command  
@@ -27,20 +27,23 @@ And we can add some text to data.txt:
 #### **git init** and the hidden **.git** folder  
 We discussed in the previous lesson how we use Git to keep track of changes in files and folders on your local machine, but how is this done?  
 
-*Don't assume this happens all the time since that is not the case.* To be able to track the changes you made in your file, the first thing you have to do is to *initialize this folder as a git repository*.  
+*Don't assume this happens all the time since that is not the case.* 
+To be able to track the changes you made in your file, the first thing you have to do is to *initialize this folder as a git repository*.  
 Inside **git-practice** folder, run the following command:  
 > git init  
 **[To do this, you should have *git* installed on your computer. You can check that out by running the following command in the terminal:**  
 > git --version  
 **[The output should be your git version, something like *git version 2.19.0*]**  
-* **git init** is the command to signal to Git that the folder you are currently in will now be a [Git repository](https://en.wikipedia.org/wiki/Software_repository). 
+* **git init** is the command to signal to Git that the folder you are currently in will now be a 
+[Git repository](https://en.wikipedia.org/wiki/Software_repository). 
 From that point forward, Git will track all changes to the files and folders inside of that folder.  
 However, remains the same question - **how does it keep track of these changes?**  
 Let's run an **ls** command to show the hidden folders and files inside of the folder:  
 > ls -a  
 > la  # this only works on my environment thanks to the bashrc  
   
-In addition to **data.txt**, we have a new folder called **.git**. We did not create this directory ourselves - Git did when we ran the **git init** command.  
+In addition to **data.txt**, we have a new folder called **.git**. 
+We did not create this directory ourselves - Git did when we ran the **git init** command.  
   
 * The **.git** repository is where Git keeps track of all of the changes you make, and much more.  
   * If for some reason you run **git init** in a folder you didn't intend to make a git repository, you can simply remove the **.git** folder using **rm -rf**  
@@ -49,8 +52,10 @@ In addition to **data.txt**, we have a new folder called **.git**. We did not cr
 **[We will use naming git repo, but it is the same as git folder / directory.]**  
   
 It may be easier to begin this by telling you where *not to create it*, and why.  
-Most of the time, you will want to create the Git repo in a specific project folder. *You do not want to create a Git repository in a high-level folder, such as **Documents**, or your home**(~)** directory.*
-Why? Git keeps track of the folder and **all subfolders of that folder.** This means that if you create a Git repository in you home(~) directory, you will be tracking all of the changes to files and folders on your local user's computer.  
+Most of the time, you will want to create the Git repo in a specific project folder. 
+*You do not want to create a Git repository in a high-level folder, such as **Documents**, or your home**(~)** directory.*
+Why? Git keeps track of the folder and **all subfolders of that folder.** 
+This means that if you create a Git repository in you home(~) directory, you will be tracking all of the changes to files and folders on your local user's computer.  
 * This is unnecessary  
 * When you go to create a Git repo later inside of a project, you may run into issues  
 * When you eventually want to store yout Git repos on GitHub later, you may accidentally push sensitive information.  
@@ -58,7 +63,9 @@ Why? Git keeps track of the folder and **all subfolders of that folder.** This m
   
 ---  
 ### Viewing Changes: git status  
-Let's return to our **git-practice** folder. We have already run **git init**, and Git is keeping track of our changes. We currently have one file in that folder - **data.txt**.  
+Let's return to our **git-practice** folder. 
+We have already run **git init**, and Git is keeping track of our changes. 
+We currently have one file in that folder - **data.txt**.  
 How can we tell what Git is keeping track of? The answer is a command that you will use very often while working on projects: *git status*  
 * *git status* tells us what files and folders are being tracked, and what their current status is, according to Git.  
   * Git tells us a few things with the output from git status, but the one that we should pay attention to right now is the one that says *Untracked files*.  
@@ -133,14 +140,19 @@ Contained in this dialog is our commits and some data about those commits. Each 
 ### Quick Reference  
 *Initialize a repository*  
 > git init  
+  
+
 *View changes in the repository*  
 > git status  
+  
+
 *Adding files to staging area*  
-> git add <file-name>  
+> git add <file-name>    
+  
+
 *Saving files*  
-> git commit -m '<commit-message>'  
+> git commit -m '<commit-message>'    
+  
+
 *View changes history*  
 > git log  
-
-
-
