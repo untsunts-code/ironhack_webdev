@@ -18,7 +18,9 @@ Let's start by creating a directory to play with Git. Navigate to desktop and cr
 > mkdir git-practice  
 > cd git-practice  
 > touch data.txt  
-> code .  
+> code .    
+
+  
 And we can add some text to data.txt:  
 > Name: Ironhacker  
 > Age: 25  
@@ -156,3 +158,6 @@ Contained in this dialog is our commits and some data about those commits. Each 
 
 *View changes history*  
 > git log  
+  
+  
+* [Git - Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)
