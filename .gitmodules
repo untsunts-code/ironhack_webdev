@@ -1,0 +1,3 @@
+[submodule "prework/lab-github-practice"]
+	path = prework/lab-github-practice
+	url = git@github.com:untsunts-code/lab-github-practice.git
