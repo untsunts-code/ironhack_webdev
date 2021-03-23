@@ -7,9 +7,13 @@
 ## Introduction  
 **HTML**, **CSS**, and **JavaScript** is a group of technologies and languages that compose the *frontend* of your web applications.  
 > The term **frontend** is reserved for all the parts of your app that users can see and interact with.  
+  
+  
 We all know that besides the visual presentation of an app, each app has some *functionality* - which is the reason why it was made in the first place.
 Web applications can do tasks such as storing data in a database, handling requests from users, and managing sessions (user logins).
 These all are considered as the *backend*, and since all of these are happening 'under the hood', users can't see it.  
+  
+  
 > The main difference between frontend and backend is that the **frontend** is mainly visual parts, and users can interact with them,
 while **backend** is where all the logic (functionality) of the app is and is not visible to users.  
   
@@ -30,5 +34,7 @@ Most people have similar-looking skeleton, but we all look unique because of the
 Your body has structure, it has a unique appearance, but of equal importance is your ability to perform tasks and do things such as run, jump, dance, etc. Your muscles give you this ability.  
 > You can build and style a very nice webpage just using HTML and CSS, but if you want to add some user interaction, you have to start thinking in the direction of using JavaScript on your page.
 The simplest form of user interaction are **events** - a user clicks on some button or link, and part of the page changes as a consequence of that click (the most simplified way to explain this).  
+  
+
 So if you want users of your webpage to be able to click on a dropdown menu, and the menu opens, or they type in a search box, and it populates the results for them, we are talking about events and using JavaScript to enable them.
 
