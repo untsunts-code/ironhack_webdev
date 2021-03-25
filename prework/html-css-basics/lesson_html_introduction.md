@@ -33,6 +33,8 @@ A **web page** is a collection of different *types* of content. Some of the basi
 Tags are used to describe specific types of content such as images, paragraphs, headings, footers and many more.  
 > **Tags usually come in pairs: an opening tag defines the start of a block of content, and an ending tag defines the end of that block of content.**  
   
-*Writting comments in HTML are placed between <!-- Comments go here -->*   
+*Writting comments in HTML are placed between < ! --  Comments go here -- > *   
+
+
 
 
