@@ -51,9 +51,9 @@ Attributes are also used for [screen readers](https://en.wikipedia.org/wiki/Scre
   
 ### The basic structure of HTML document  
 A HTML document always has the same structure, which includes:  
-* **<!DOCTYPE html>** - This tag indicates that the markup language for your document content is *HTML5*. As you can see, this tag is a bit different, doesn't follow the standard tag structure since.  
-* **<html>** - The spine of HTML document is *<html>* tag. Every *HTML* document has to have this tag, and there has to be ONLY ONE <html> tag per document.  
-* **<head>** - The < head > tag
+* **<! DOCTYPE html >** - This tag indicates that the markup language for your document content is *HTML5*. As you can see, this tag is a bit different, doesn't follow the standard tag structure since.  
+* **< html >** - The spine of HTML document is *< html >* tag. Every *HTML* document has to have this tag, and there has to be ONLY ONE <html> tag per document.  
+* **< head >** - The < head > tag
 
 
 
