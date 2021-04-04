@@ -58,7 +58,7 @@ You can set *font-size* property to all text related HTML elements:
 > }  
   
 > h2 {  
->   font-size: px;  
+>   font-size: 16px;  
 > }  
   
 *It is normal to express measurement units through **px (pixels)**, but that is just one way to do it.*  
@@ -71,5 +71,47 @@ There are three used ways to manipulate the font size through CSS:
 There are default tags for each HTML element, and we can adjust its size if needed.  
   
 ### The *font-style* property  
+*font-style* is used to turn text italic or oblique.  
+  
+### The *font-weight* property  
+The [font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight) property is used to turn text *bold*, *bolder* or *lighter*. It can be expressed as a numeric value.   
+  
+---  
+## CSS Text properties  
+You have already seen basic font properties. Now, let's have a look at some of the properties you can use to change the text layout.  
+  
+### text-transform  
+The [text-transform](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform) is used to transform text into *lowercase*, *uppercase* or to *capitalize* letters.   
+> Why?  
+> These properties are particularly useful for branding and situations where you always need a particular word capitalized.  
+  
+### The *text-decoration* property  
+The [text-decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration) sets the appearance of decorative lines on text.  
+The most used values for this property are:  
+* *none*: unsets any text decorations already present, it is the default value for most of the HTML tags   
+* *underline*: underlines the text  
+* *overline*: gives the text an overline  
+* *line-through*: puts a strikethrough over the text  
+These can be combined with color properties.  
+  
+### The *text-align* property  
+According to W3Schools, the [text-align property](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align) is used to set the horizontal alignment of a text.  
+*text-align* is used to control text alignment within its containing content box.  
+The different possible values are:  
+* *left*: justifies the text to the left  
+* *right*: justifies the text to the right  
+* *center*: centers the text  
+* *justify*: makes the text spread out, varying the gaps in between the words so that all lines of text are the same width  
+  
+### The *text-indent* property  
+The [text-indent property](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent) is used to specify the indentaion of the first line of a text.  
+  
+### The *line-height* property  
+The [line-height property](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) is used to set the height of each line of text, both above and below the line.  
+If you don't specify any unit type to the *line-height* value, it will multiply by X the height of the font you would use.  
+  
+### The *letter-spacing* and *word-spacing* property  
+The [letter-spacing property](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) is used to specify the space between the characters in a text.  
+The [word-spacing property](https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing) sets the length of space between words and between tags.  
 
 
