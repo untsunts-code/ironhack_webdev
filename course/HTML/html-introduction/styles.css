@@ -1,0 +1,29 @@
+* {  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+body {  
+  background-color: pink;  
+  background-repeat: no-repeat;  
+  background-size: cover;  
+  background-position: center;  
+  color: white;  
+  height: 50vh;  
+  /* Flexbox me ayuda a centrar mi texto */
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+}  
+
+.img-background {  
+  color: #F9C6D7   
+}
+  
+.perro {  
+  background-color: white;  
+}  
+  
+#gato {  
+  background-color: red;  
+}  
